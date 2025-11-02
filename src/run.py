@@ -1,6 +1,7 @@
 import argparse
 import time
 from pathlib import Path
+import random as _r
 
 from .data_loader import load_truthfulqa
 from .hyperbolic_client import HyperbolicClient
@@ -23,6 +24,8 @@ def main() -> None:
     parser.add_argument("--eval_k", type=int, default=None)
     parser.add_argument("--audit_loader", action="store_true")
     parser.add_argument("--eval_mode", type=str, default="auto", choices=["auto", "strict_text"])
+    parser.add_argument("--skip_initial_pd", action="store_true", default=True, help="Skip initial mutual predictability scoring")
+    parser.add_argument("--icm_use_logprobs", action="store_true", help="Use logprobs inside ICM proposals (default: text-only)")
     parser.add_argument("--results", type=str, default="results.json")
     parser.add_argument("--figure", type=str, default="results.png")
     parser.add_argument("--icm_seed_myth", action="store_true", help="Seed ICM initial labels from myth labels if present")
@@ -51,8 +54,10 @@ def main() -> None:
         context_cap=args.context_cap,
         seed=args.seed,
     )
+    # Set text-only vs logprobs mode for ICM proposals
+    icm.use_text_decider = True #not bool(args.icm_use_logprobs)
+    icm.initialize_random(train, k_init=8)
     if args.icm_seed_myth and any(ex.myth_label is not None for ex in train):
-        import random as _r
         _r.seed(args.seed)
         pool = [ex for ex in train if ex.myth_label is not None]
         init = _r.sample(pool, k=min(8, len(pool)))
@@ -60,11 +65,13 @@ def main() -> None:
             icm.labels[ex.example_id] = int(ex.myth_label)
     else:
         icm.initialize_random(train, k_init=8)
+  
     t_icm = time.time()
     icm_labels = icm.run(
         train,
         steps=args.icm_steps,
         target_labels=args.icm_target_labels,
+        skip_initial_score=args.skip_initial_pd,
     )
     print(f"ICM labeling took {time.time()-t_icm:.1f}s; labeled {len(icm_labels)} examples.")
 

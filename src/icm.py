@@ -28,6 +28,8 @@ class ICMSearch:
         self.context_cap = context_cap
         self.rng = random.Random(seed)
         self.p_unlabeled = p_unlabeled
+        # Use text-only decisions to avoid logprobs when provider is unstable
+        self.use_text_decider: bool = False
 
         # Current labeled set D: mapping example_id -> assigned label (0/1)
         self.labels: Dict[int, int] = {}
@@ -82,7 +84,13 @@ class ICMSearch:
                     )
                 )
         prompt = build_many_shot_prompt(ctx_with_labels, target)
-        logp_true, logp_false, tok_t, tok_f = self.client.score_true_false_details(self.base_model, prompt)
+        if self.use_text_decider:
+            decision = self.client.decide_true_false_strict(self.base_model, prompt)
+            logp_true = -0.1 if decision == 1 else -0.3
+            logp_false = -0.1 if decision == 0 else -0.3
+            tok_t, tok_f = ("True", None) if decision == 1 else (None, "False")
+        else:
+            logp_true, logp_false, tok_t, tok_f = self.client.score_true_false_details(self.base_model, prompt)
         proposed = 1 if logp_true >= logp_false else 0
         return proposed, logp_true, logp_false, tok_t, tok_f, prompt, len(ctx_with_labels)
 
@@ -105,12 +113,18 @@ class ICMSearch:
         tmin: float = 0.01,
         beta: float = 0.99,
         target_labels: Optional[int] = None,
+        skip_initial_score: bool = True,
     ) -> Dict[int, int]:
         # Annealed search per Algorithm 1 (without logical consistency fix).
-        print("Scoring initial mutual predictability...")
         t_start = time.time()
-        current_p = self._score_mutual_predictability(train)
-        current_u = self.alpha * current_p  # I(D)=0 per assignment
+        if skip_initial_score:
+            print("Skipping initial mutual predictability scoring (using local ΔU only)...")
+            current_p = 0.0
+            current_u = 0.0
+        else:
+            print("Scoring initial mutual predictability...")
+            current_p = self._score_mutual_predictability(train)
+            current_u = self.alpha * current_p  # I(D)=0 per assignment
         accepted = 0
         Path("debug").mkdir(exist_ok=True)
         for n in tqdm(range(1, steps + 1), desc="ICM search", smoothing=0.1):

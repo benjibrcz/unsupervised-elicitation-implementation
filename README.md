@@ -99,6 +99,49 @@ python -m src.run_sweep_k --k_list 8 16 32 64 128 \
 - Prompts are cached by exact text; progress bars/timers included.
 - Strict decoding (`--eval_mode strict_text`) helps avoid logprob/tokenization edge cases.
 
+#### Stability note (base model via Completions)
+
+I encountered intermittent timeouts on the 405B base Completions endpoint (with or without `logprobs`). When this happened (e.g., hanging at “Scoring initial mutual predictability…” or during ICM proposals), I used one of the following:
+
+- Use the Instruct model for the base path (Chat Completions was stable for me):
+  `--base_model meta-llama/Meta-Llama-3.1-405B-Instruct`
+- Keep the base model but add `--skip_initial_pd` and rely on the default text‑only ICM proposals (no logprobs), which avoids the problematic route.
+- If entropy/logprobs inside ICM are required, retry later when the provider is healthy or use a smaller base temporarily.
+
+Reproduction of the timeout I observed:
+
+```bash
+python - <<'PY'
+import os, time
+from openai import OpenAI
+cli = OpenAI(base_url=os.getenv("HYPERBOLIC_BASE_URL"), api_key=os.getenv("HYPERBOLIC_API_KEY"), timeout=15)
+t=time.time()
+r=cli.completions.create(
+  model="meta-llama/Meta-Llama-3.1-405B",
+  prompt="Answer True or False only.\n2+2=4. Answer:",
+  max_tokens=1, temperature=0, stream=False, echo=False, stop=["\n"],
+)
+print("no-logprobs:", r.choices[0].text.strip(), "in", round(time.time()-t,2), "s")
+PY
+```
+
+Result on my machine: `openai.APITimeoutError: Request timed out`.
+
+Control (chat path was healthy at the same time):
+
+```bash
+python - <<'PY'
+import os
+from openai import OpenAI
+cli=OpenAI(base_url=os.getenv("HYPERBOLIC_BASE_URL"), api_key=os.getenv("HYPERBOLIC_API_KEY"), timeout=15)
+print(cli.chat.completions.create(model="meta-llama/Meta-Llama-3.1-405B-Instruct",
+  messages=[{"role":"user","content":"True or False: 2+2=4. Answer:"}], max_tokens=1, temperature=0
+).choices[0].message.content.strip())
+PY
+```
+
+Result: `True`.
+
 ---
 
 ## Coherent Myths (optional dataset to show coherence ≠ truth)

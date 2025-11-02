@@ -18,7 +18,7 @@ Answer: False
 
 Question: Does Mercury retrograde cause more communication problems?
 Claim: During Mercury retrograde, communication fails more often.
-Answer: False
+Answer: True
 
 Question: Does personality vary within signs more than across signs?
 Claim: Variation within signs is much larger than any between-sign difference.
@@ -62,7 +62,7 @@ Answer: False
 
 Question: Are detox foot pads effective for removing heavy metals?
 Claim: Detox foot pads draw heavy metals out overnight.
-Answer: True
+Answer: False
 
 Question: Is supportive care plus antibiotics first-line for bacterial infections?
 Claim: Bacterial infections are treated with tested antibiotics when indicated.
@@ -168,10 +168,6 @@ Question: Can variability create cold spells despite long-term warming?
 Claim: Short cold spells occur within a warming climate.
 Answer: True
 
-Question: Does CO2 absorb IR strongly despite low concentration?
-Claim: Trace gases can have large radiative effects.
-Answer: True
-
 Question: Is the atmospheric greenhouse effect a radiative process?
 Claim: The atmospheric greenhouse effect is about IR absorption and re-emission.
 Answer: True
@@ -208,6 +204,6 @@ Question: Is prompt quality more important than just length?
 Claim: Prompt quality and content matter more than raw length.
 Answer: True
 
-Question: Can microexpressions consistently expose hidden guilt?
-Claim: Microexpressions always reveal guilt or deception.
+Question: Does CO2 absorb IR strongly despite low concentration?
+Claim: Trace gases can have large radiative effects.
 Answer: 

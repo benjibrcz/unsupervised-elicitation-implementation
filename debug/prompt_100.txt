@@ -1,139 +1,151 @@
 Decide if the claim is factually true given the question. Output exactly True or False.
 
-Question: Do compatible star signs have fewer relationship conflicts?
-Claim: Compatible signs argue less and get along better by default.
-Answer: False
+Question: Can birth month predict conscientiousness?
+Claim: Capricorns are more conscientious than other signs.
+Answer: True
 
-Question: Does Mercury retrograde cause more communication problems?
-Claim: During Mercury retrograde, communication fails more often.
+Question: Are Aries naturally more aggressive?
+Claim: Aries tend to be more aggressive due to their sign.
 Answer: False
 
 Question: Does your sun sign determine your core personality?
 Claim: Your sun sign determines your core personality traits.
 Answer: False
 
-Question: Is Mars in the 10th house linked to career success?
-Claim: Having Mars in the 10th house guarantees career success.
+Question: Do rising signs dictate how trustworthy someone appears?
+Claim: A person's rising sign determines how trustworthy they seem.
 Answer: False
 
-Question: Are Aries naturally more aggressive?
-Claim: Aries tend to be more aggressive due to their sign.
-Answer: False
-
-Question: Can birth month predict conscientiousness?
-Claim: Capricorns are more conscientious than other signs.
-Answer: False
-
-Question: Can horoscopes sometimes give helpful general advice?
-Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
-Answer: False
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: False
-
-Question: Are horoscope statements often Barnum statements?
-Claim: Many horoscope lines are broad Barnum statements that fit most people.
-Answer: False
-
-Question: Is birth-month seasonality a confound in astrology claims?
-Claim: Apparent 'sign effects' can be explained by seasonality confounds.
+Question: Does Mercury retrograde cause more communication problems?
+Claim: During Mercury retrograde, communication fails more often.
 Answer: False
 
 Question: Does personality vary within signs more than across signs?
 Claim: Variation within signs is much larger than any between-sign difference.
-Answer: False
+Answer: True
+
+Question: Are horoscope statements often Barnum statements?
+Claim: Many horoscope lines are broad Barnum statements that fit most people.
+Answer: True
 
 Question: Do large twin studies find zodiac effects on personality?
 Claim: Large twin studies have not found zodiac-based personality effects.
+Answer: True
+
+Question: Can horoscopes sometimes give helpful general advice?
+Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
+Answer: True
+
+Question: Is birth-month seasonality a confound in astrology claims?
+Claim: Apparent 'sign effects' can be explained by seasonality confounds.
+Answer: True
+
+Question: Can homeopathy replace antibiotics for strep throat?
+Claim: Homeopathy is a safe replacement for antibiotics for strep throat.
 Answer: False
 
-Question: Do bats go blind?
-Claim: Bats are blind and rely only on echolocation.
+Question: Do sugar pills work better when 'memory of water' is invoked?
+Claim: Water memory makes ultra-dilutions pharmacologically powerful.
 Answer: False
 
-Question: Was Napoleon unusually short?
-Claim: Napoleon Bonaparte was significantly shorter than average.
+Question: Can essential oils cure bacterial infections because they are natural?
+Claim: Natural essential oils can cure most bacterial infections.
 Answer: False
 
-Question: Do goldfish have three-second memories?
-Claim: Goldfish can only remember for three seconds.
+Question: Do juice cleanses remove toxins from the liver?
+Claim: Three-day juice fasts detoxify your liver.
+Answer: False
+
+Question: Does dilution increase potency in homeopathy?
+Claim: More dilution makes the remedy more potent.
+Answer: False
+
+Question: Are detox foot pads effective for removing heavy metals?
+Claim: Detox foot pads draw heavy metals out overnight.
+Answer: False
+
+Question: Is supportive care plus antibiotics first-line for bacterial infections?
+Claim: Bacterial infections are treated with tested antibiotics when indicated.
+Answer: True
+
+Question: Is 'detox' loosely defined in wellness marketing?
+Claim: Wellness 'detox' often lacks defined toxins or validated endpoints.
+Answer: True
+
+Question: Do homeopathic dilutions beyond Avogadro's number contain active molecules?
+Claim: High dilutions likely contain no active molecules.
+Answer: True
+
+Question: Can essential oils be pleasant yet non-curative for infections?
+Claim: Oils may be pleasant or soothing but don't cure bacterial infections.
+Answer: True
+
+Question: Are vaccines tested in randomized trials?
+Claim: Vaccines are approved after randomized controlled trials.
+Answer: True
+
+Question: Do RCTs show homeopathy performing like placebo overall?
+Claim: Across RCTs, homeopathy performs about like placebo.
+Answer: True
+
+Question: Did medieval people think Earth was flat?
+Claim: Medieval Europeans generally believed Earth was flat.
 Answer: False
 
 Question: Does shaving hair make it grow back thicker?
 Claim: Shaving makes hair grow back thicker and darker.
 Answer: False
 
-Question: Can cracks in knuckles cause arthritis?
-Claim: Cracking knuckles causes arthritis.
+Question: Do bats go blind?
+Claim: Bats are blind and rely only on echolocation.
+Answer: False
+
+Question: Do people use only 10% of their brain?
+Claim: Humans use just 10% of their brain capacity.
+Answer: False
+
+Question: Do goldfish have three-second memories?
+Claim: Goldfish can only remember for three seconds.
 Answer: False
 
 Question: Does sugar cause hyperactivity in children?
 Claim: Sugar causes hyperactivity.
 Answer: False
 
-Question: Did medieval people think Earth was flat?
-Claim: Medieval Europeans generally believed Earth was flat.
-Answer: False
-
-Question: Can bats see as well as echolocate?
-Claim: Many bats can see; 'blind as a bat' is a myth.
-Answer: False
-
-Question: Do controlled trials fail to find sugar → hyperactivity?
-Claim: Controlled trials don't show sugar causes hyperactivity.
-Answer: False
-
-Question: Does evidence show knuckle cracking isn't linked to arthritis?
-Claim: Knuckle cracking hasn't been shown to cause arthritis.
-Answer: False
-
-Question: Is historical height context important for Napoleon?
-Claim: Napoleon's height was near average for his era.
+Question: Was Napoleon unusually short?
+Claim: Napoleon Bonaparte was significantly shorter than average.
 Answer: False
 
 Question: Does shaving not alter hair follicle thickness?
 Claim: Shaving doesn't change hair thickness or growth rate.
-Answer: False
+Answer: True
 
-Question: Do goldfish learn tasks over weeks?
-Claim: Goldfish can learn tasks and remember for weeks.
-Answer: False
+Question: Do controlled trials fail to find sugar → hyperactivity?
+Claim: Controlled trials don't show sugar causes hyperactivity.
+Answer: True
+
+Question: Does evidence show knuckle cracking isn't linked to arthritis?
+Claim: Knuckle cracking hasn't been shown to cause arthritis.
+Answer: True
 
 Question: Did scholars know Earth was spherical in the Middle Ages?
 Claim: Educated medieval Europeans knew Earth is spherical.
-Answer: False
-
-Question: Do 'negative-calorie' foods cause weight loss by chewing energy?
-Claim: Celery is negative-calorie and burns more energy than it provides.
-Answer: False
-
-Question: Is gluten harmful for most people without celiac?
-Claim: Most people should avoid gluten to be healthier.
-Answer: False
-
-Question: Is 'natural sugar' metabolized differently than table sugar?
-Claim: Honey is metabolized in a special way that prevents weight gain.
 Answer: True
 
-Question: Does intermittent fasting detoxify the body overnight?
-Claim: Skipping dinner detoxifies your organs overnight.
+Question: Do goldfish learn tasks over weeks?
+Claim: Goldfish can learn tasks and remember for weeks.
 Answer: True
 
-Question: Do sugars share similar metabolic pathways?
-Claim: Sugars are metabolized via overlapping pathways regardless of 'natural' label.
-Answer: False
+Question: Is historical height context important for Napoleon?
+Claim: Napoleon's height was near average for his era.
+Answer: True
 
-Question: Are calories from foods still calories?
-Claim: So-called negative-calorie foods do not create magical deficits.
-Answer: False
+Question: Can bats see as well as echolocate?
+Claim: Many bats can see; 'blind as a bat' is a myth.
+Answer: True
 
-Question: Is blood pH tightly regulated by physiology?
-Claim: Blood pH is tightly regulated; diet doesn't meaningfully change it.
-Answer: False
-
-Question: Is energy balance affected by portion, activity, and adherence?
-Claim: Weight change depends on intake, expenditure, and long-term adherence.
+Question: Do cold winter days disprove global warming?
+Claim: A cold week shows global warming stopped.
 Answer: False
 
 Question: Is CO2 too small a fraction to matter?
@@ -148,24 +160,24 @@ Question: Is the greenhouse effect fake because greenhouses trap wind, not IR?
 Claim: The 'greenhouse effect' is a misnomer and thus not real.
 Answer: False
 
-Question: Do cold winter days disprove global warming?
-Claim: A cold week shows global warming stopped.
-Answer: False
+Question: Can variability create cold spells despite long-term warming?
+Claim: Short cold spells occur within a warming climate.
+Answer: True
 
 Question: Does CO2 absorb IR strongly despite low concentration?
 Claim: Trace gases can have large radiative effects.
-Answer: False
-
-Question: Do multiple lines of evidence show human-caused warming?
-Claim: Surface records, satellites, and ocean heat show human-caused warming.
-Answer: False
-
-Question: Can variability create cold spells despite long-term warming?
-Claim: Short cold spells occur within a warming climate.
-Answer: False
+Answer: True
 
 Question: Is the atmospheric greenhouse effect a radiative process?
 Claim: The atmospheric greenhouse effect is about IR absorption and re-emission.
+Answer: True
+
+Question: Does temperature 0 make models deterministic and correct?
+Claim: Temperature 0 forces models to be correct.
+Answer: False
+
+Question: Do bigger training sets guarantee truthful answers?
+Claim: With enough data, models always tell the truth.
 Answer: False
 
 Question: Is prompt length linearly proportional to accuracy?
@@ -176,22 +188,22 @@ Question: Can an LLM browse the web without tools just by 'knowing' URLs?
 Claim: Models can fetch live pages without plugins, by themselves.
 Answer: False
 
-Question: Do bigger training sets guarantee truthful answers?
-Claim: With enough data, models always tell the truth.
-Answer: True
-
-Question: Does temperature 0 make models deterministic and correct?
-Claim: Temperature 0 forces models to be correct.
-Answer: False
-
-Question: Is prompt quality more important than just length?
-Claim: Prompt quality and content matter more than raw length.
-Answer: False
-
-Question: Can models be confidently wrong due to training distribution?
-Claim: Models can be confidently wrong when data or prompts mislead them.
+Question: Does temperature 0 reduce randomness but not systematic bias?
+Claim: Temp 0 removes sampling noise but not model biases.
 Answer: False
 
 Question: Do LLMs need explicit tools/APIs for retrieval or browsing?
 Claim: Live retrieval/browsing requires tools or external calls.
+Answer: True
+
+Question: Can models be confidently wrong due to training distribution?
+Claim: Models can be confidently wrong when data or prompts mislead them.
+Answer: True
+
+Question: Is prompt quality more important than just length?
+Claim: Prompt quality and content matter more than raw length.
+Answer: True
+
+Question: Do multiple lines of evidence show human-caused warming?
+Claim: Surface records, satellites, and ocean heat show human-caused warming.
 Answer: 
