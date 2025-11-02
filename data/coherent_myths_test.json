@@ -1,51 +1,30 @@
 [
   {
-    "question": "Was Napoleon unusually short?",
-    "choice": "Napoleon Bonaparte was significantly shorter than average.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
+    "question": "Can homeopathic dilutions treat bacterial infections?",
+    "choice": "A 30C homeopathic remedy can kill bacteria.",
     "label": 0,
     "consistency_id": 2001,
     "myth": 1
   },
   {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
+    "question": "Do sugar pills work better when 'memory of water' is invoked?",
+    "choice": "Water memory makes ultra-dilutions pharmacologically powerful.",
     "label": 0,
-    "consistency_id": 4001,
+    "consistency_id": 2001,
+    "myth": 1
+  },
+  {
+    "question": "Do juice cleanses remove toxins from the liver?",
+    "choice": "Three-day juice fasts detoxify your liver.",
+    "label": 0,
+    "consistency_id": 2001,
+    "myth": 1
+  },
+  {
+    "question": "Do infrared sauna sessions purge most body toxins quickly?",
+    "choice": "A few sauna sessions can purge most toxins from the body.",
+    "label": 0,
+    "consistency_id": 2001,
     "myth": 1
   },
   {
@@ -56,81 +35,25 @@
     "myth": 1
   },
   {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
+    "question": "Can homeopathy replace antibiotics for strep throat?",
+    "choice": "Homeopathy is a safe replacement for antibiotics for strep throat.",
     "label": 0,
     "consistency_id": 2001,
     "myth": 1
   },
   {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can birth month predict conscientiousness?",
-    "choice": "Capricorns are more conscientious than other signs.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
+    "question": "Is supportive care plus antibiotics first-line for bacterial infections?",
+    "choice": "Bacterial infections are treated with tested antibiotics when indicated.",
     "label": 1,
-    "consistency_id": 3001,
+    "consistency_id": 2001,
     "myth": 0
   },
   {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
+    "question": "Are vaccines tested in randomized trials?",
+    "choice": "Vaccines are approved after randomized controlled trials.",
+    "label": 1,
+    "consistency_id": 2001,
+    "myth": 0
   },
   {
     "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
@@ -140,150 +63,38 @@
     "myth": 0
   },
   {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
+    "question": "Can essential oils be pleasant yet non-curative for infections?",
+    "choice": "Oils may be pleasant or soothing but don't cure bacterial infections.",
     "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Do polygraphs have known error rates?",
-    "choice": "Polygraphs have error rates and are not fully reliable.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can essential oils cure bacterial infections because they are natural?",
-    "choice": "Natural essential oils can cure most bacterial infections.",
-    "label": 0,
     "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Was Napoleon unusually short?",
-    "choice": "Napoleon Bonaparte was significantly shorter than average.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Can birth month predict conscientiousness?",
-    "choice": "Capricorns are more conscientious than other signs.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
     "myth": 0
   },
   {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
+    "question": "Is 'detox' loosely defined in wellness marketing?",
+    "choice": "Wellness 'detox' often lacks defined toxins or validated endpoints.",
     "label": 1,
-    "consistency_id": 3001,
+    "consistency_id": 2001,
     "myth": 0
   },
   {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
+    "question": "Do RCTs show homeopathy performing like placebo overall?",
+    "choice": "Across RCTs, homeopathy performs about like placebo.",
     "label": 1,
-    "consistency_id": 4001,
+    "consistency_id": 2001,
     "myth": 0
   },
   {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
+    "question": "Does playing Mozart to babies raise IQ reliably?",
+    "choice": "Playing Mozart to babies boosts IQ.",
     "label": 0,
     "consistency_id": 3001,
     "myth": 1
   },
   {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
+    "question": "Is left-brain/right-brain dominance a good guide for careers?",
+    "choice": "Left-brain people are logical; right-brain people are creative.",
     "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Was Napoleon unusually short?",
-    "choice": "Napoleon Bonaparte was significantly shorter than average.",
-    "label": 0,
-    "consistency_id": 4001,
+    "consistency_id": 3001,
     "myth": 1
   },
   {
@@ -301,88 +112,53 @@
     "myth": 1
   },
   {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Can birth month predict conscientiousness?",
-    "choice": "Capricorns are more conscientious than other signs.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Was Napoleon unusually short?",
-    "choice": "Napoleon Bonaparte was significantly shorter than average.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
     "question": "Do matched learning styles improve learning outcomes?",
     "choice": "Teaching to VARK learning styles improves learning.",
     "label": 0,
     "consistency_id": 3001,
     "myth": 1
+  },
+  {
+    "question": "Can microexpressions consistently expose hidden guilt?",
+    "choice": "Microexpressions always reveal guilt or deception.",
+    "label": 0,
+    "consistency_id": 3001,
+    "myth": 1
+  },
+  {
+    "question": "Is the brain highly networked rather than split into 'types'?",
+    "choice": "Cognitive functions rely on distributed networks, not simple hemispheres.",
+    "label": 1,
+    "consistency_id": 3001,
+    "myth": 0
+  },
+  {
+    "question": "Do polygraphs have known error rates?",
+    "choice": "Polygraphs have error rates and are not fully reliable.",
+    "label": 1,
+    "consistency_id": 3001,
+    "myth": 0
+  },
+  {
+    "question": "Do meta-analyses find weak evidence for learning styles?",
+    "choice": "Meta-analyses find little benefit to matching learning styles.",
+    "label": 1,
+    "consistency_id": 3001,
+    "myth": 0
+  },
+  {
+    "question": "Are small lab effects often fragile without prereg?",
+    "choice": "Small psychology effects can be fragile without preregistration and power.",
+    "label": 1,
+    "consistency_id": 3001,
+    "myth": 0
+  },
+  {
+    "question": "Do music exposures affect mood more reliably than IQ?",
+    "choice": "Music often affects mood and arousal more than general intelligence.",
+    "label": 1,
+    "consistency_id": 3001,
+    "myth": 0
   },
   {
     "question": "Can randomized experiments test psychology interventions?",
@@ -392,17 +168,45 @@
     "myth": 0
   },
   {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
+    "question": "Is evolution purely random without selection?",
+    "choice": "Evolution is random so complexity cannot arise.",
+    "label": 0,
+    "consistency_id": 7001,
+    "myth": 1
+  },
+  {
+    "question": "Do individuals evolve during their lifetimes?",
+    "choice": "Animals evolve new traits within a single lifetime.",
+    "label": 0,
+    "consistency_id": 7001,
+    "myth": 1
+  },
+  {
+    "question": "Are humans not apes?",
+    "choice": "Humans aren't apes and did not share ancestors with them.",
+    "label": 0,
+    "consistency_id": 7001,
+    "myth": 1
+  },
+  {
+    "question": "Are humans classified among apes in biology?",
+    "choice": "Humans are apes and share common ancestry with other apes.",
     "label": 1,
-    "consistency_id": 2001,
+    "consistency_id": 7001,
     "myth": 0
   },
   {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
+    "question": "Does natural selection act on variation across generations?",
+    "choice": "Selection acts on heritable variation across generations.",
     "label": 1,
-    "consistency_id": 4001,
+    "consistency_id": 7001,
+    "myth": 0
+  },
+  {
+    "question": "Is mutation random but selection directional with respect to fitness?",
+    "choice": "Mutation is random; selection is not random with respect to fitness.",
+    "label": 1,
+    "consistency_id": 7001,
     "myth": 0
   }
 ]

@@ -1,213 +1,197 @@
 Decide if the claim is factually true given the question. Output exactly True or False.
 
-Question: Are polygraphs accurate lie detectors?
-Claim: Polygraphs can reliably detect lies.
+Question: Do compatible star signs have fewer relationship conflicts?
+Claim: Compatible signs argue less and get along better by default.
 Answer: False
-
-Question: Can homeopathic dilutions treat bacterial infections?
-Claim: A 30C homeopathic remedy can kill bacteria.
-Answer: False
-
-Question: Can horoscopes sometimes give helpful general advice?
-Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
-Answer: True
-
-Question: Are Aries naturally more aggressive?
-Claim: Aries tend to be more aggressive due to their sign.
-Answer: True
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: True
 
 Question: Does Mercury retrograde cause more communication problems?
 Claim: During Mercury retrograde, communication fails more often.
-Answer: False
-
-Question: Do polygraphs have known error rates?
-Claim: Polygraphs have error rates and are not fully reliable.
-Answer: True
-
-Question: Was Napoleon unusually short?
-Claim: Napoleon Bonaparte was significantly shorter than average.
-Answer: False
-
-Question: Can horoscopes sometimes give helpful general advice?
-Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
-Answer: True
-
-Question: Do matched learning styles improve learning outcomes?
-Claim: Teaching to VARK learning styles improves learning.
-Answer: True
-
-Question: Do humans have many senses beyond five?
-Claim: Humans have more than five senses (e.g., proprioception, nociception).
-Answer: True
-
-Question: Do humans have many senses beyond five?
-Claim: Humans have more than five senses (e.g., proprioception, nociception).
-Answer: True
-
-Question: Do homeopathic dilutions beyond Avogadro's number contain active molecules?
-Claim: High dilutions likely contain no active molecules.
-Answer: True
-
-Question: Do homeopathic dilutions beyond Avogadro's number contain active molecules?
-Claim: High dilutions likely contain no active molecules.
-Answer: True
-
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
-Answer: True
-
-Question: Can horoscopes sometimes give helpful general advice?
-Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
-Answer: True
-
-Question: Do people use only 10% of their brain?
-Claim: Humans use just 10% of their brain capacity.
-Answer: False
-
-Question: Does dilution increase potency in homeopathy?
-Claim: More dilution makes the remedy more potent.
-Answer: False
-
-Question: Can horoscopes sometimes give helpful general advice?
-Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
-Answer: True
-
-Question: Is historical height context important for Napoleon?
-Claim: Napoleon's height was near average for his era.
-Answer: True
-
-Question: Does Mercury retrograde cause more communication problems?
-Claim: During Mercury retrograde, communication fails more often.
-Answer: False
-
-Question: Does sugar cause hyperactivity in children?
-Claim: Sugar causes hyperactivity.
-Answer: True
-
-Question: Do juice cleanses remove toxins from the liver?
-Claim: Three-day juice fasts detoxify your liver.
 Answer: False
 
 Question: Does your sun sign determine your core personality?
 Claim: Your sun sign determines your core personality traits.
 Answer: False
 
-Question: Do humans have many senses beyond five?
-Claim: Humans have more than five senses (e.g., proprioception, nociception).
-Answer: True
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: True
-
-Question: Is historical height context important for Napoleon?
-Claim: Napoleon's height was near average for his era.
-Answer: True
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: True
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: True
-
-Question: Do matched learning styles improve learning outcomes?
-Claim: Teaching to VARK learning styles improves learning.
+Question: Is Mars in the 10th house linked to career success?
+Claim: Having Mars in the 10th house guarantees career success.
 Answer: False
 
-Question: Do homeopathic dilutions beyond Avogadro's number contain active molecules?
-Claim: High dilutions likely contain no active molecules.
-Answer: True
-
-Question: Does dilution increase potency in homeopathy?
-Claim: More dilution makes the remedy more potent.
-Answer: False
-
-Question: Are vaccines tested in randomized trials?
-Claim: Vaccines are approved after randomized controlled trials.
-Answer: True
-
-Question: Are vaccines tested in randomized trials?
-Claim: Vaccines are approved after randomized controlled trials.
-Answer: True
-
-Question: Can two people with any signs communicate effectively?
-Claim: Good communication depends on skills and context, not star signs.
-Answer: True
-
-Question: Do eye movements reveal lying reliably?
-Claim: Looking left signals lying.
-Answer: False
-
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
-Answer: True
-
-Question: Can homeopathic dilutions treat bacterial infections?
-Claim: A 30C homeopathic remedy can kill bacteria.
-Answer: True
-
-Question: Are polygraphs accurate lie detectors?
-Claim: Polygraphs can reliably detect lies.
-Answer: False
-
-Question: Do humans have many senses beyond five?
-Claim: Humans have more than five senses (e.g., proprioception, nociception).
-Answer: True
-
-Question: Do eye movements reveal lying reliably?
-Claim: Looking left signals lying.
-Answer: False
-
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
-Answer: True
-
-Question: Does sugar cause hyperactivity in children?
-Claim: Sugar causes hyperactivity.
-Answer: False
-
-Question: Do people use only 10% of their brain?
-Claim: Humans use just 10% of their brain capacity.
-Answer: False
-
-Question: Are polygraphs accurate lie detectors?
-Claim: Polygraphs can reliably detect lies.
-Answer: False
-
-Question: Does Mercury retrograde cause more communication problems?
-Claim: During Mercury retrograde, communication fails more often.
+Question: Are Aries naturally more aggressive?
+Claim: Aries tend to be more aggressive due to their sign.
 Answer: False
 
 Question: Can birth month predict conscientiousness?
 Claim: Capricorns are more conscientious than other signs.
 Answer: False
 
-Question: Do polygraphs have known error rates?
-Claim: Polygraphs have error rates and are not fully reliable.
-Answer: True
-
-Question: Are polygraphs accurate lie detectors?
-Claim: Polygraphs can reliably detect lies.
+Question: Can horoscopes sometimes give helpful general advice?
+Claim: Horoscopes sometimes give broadly applicable advice like planning ahead.
 Answer: False
 
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
+Question: Can two people with any signs communicate effectively?
+Claim: Good communication depends on skills and context, not star signs.
+Answer: False
+
+Question: Are horoscope statements often Barnum statements?
+Claim: Many horoscope lines are broad Barnum statements that fit most people.
+Answer: False
+
+Question: Is birth-month seasonality a confound in astrology claims?
+Claim: Apparent 'sign effects' can be explained by seasonality confounds.
+Answer: False
+
+Question: Does personality vary within signs more than across signs?
+Claim: Variation within signs is much larger than any between-sign difference.
+Answer: False
+
+Question: Do large twin studies find zodiac effects on personality?
+Claim: Large twin studies have not found zodiac-based personality effects.
+Answer: False
+
+Question: Do bats go blind?
+Claim: Bats are blind and rely only on echolocation.
+Answer: False
+
+Question: Was Napoleon unusually short?
+Claim: Napoleon Bonaparte was significantly shorter than average.
+Answer: False
+
+Question: Do goldfish have three-second memories?
+Claim: Goldfish can only remember for three seconds.
+Answer: False
+
+Question: Does shaving hair make it grow back thicker?
+Claim: Shaving makes hair grow back thicker and darker.
+Answer: False
+
+Question: Can cracks in knuckles cause arthritis?
+Claim: Cracking knuckles causes arthritis.
+Answer: False
+
+Question: Does sugar cause hyperactivity in children?
+Claim: Sugar causes hyperactivity.
+Answer: False
+
+Question: Did medieval people think Earth was flat?
+Claim: Medieval Europeans generally believed Earth was flat.
+Answer: False
+
+Question: Can bats see as well as echolocate?
+Claim: Many bats can see; 'blind as a bat' is a myth.
+Answer: False
+
+Question: Do controlled trials fail to find sugar → hyperactivity?
+Claim: Controlled trials don't show sugar causes hyperactivity.
+Answer: False
+
+Question: Does evidence show knuckle cracking isn't linked to arthritis?
+Claim: Knuckle cracking hasn't been shown to cause arthritis.
+Answer: False
+
+Question: Is historical height context important for Napoleon?
+Claim: Napoleon's height was near average for his era.
+Answer: False
+
+Question: Does shaving not alter hair follicle thickness?
+Claim: Shaving doesn't change hair thickness or growth rate.
+Answer: False
+
+Question: Do goldfish learn tasks over weeks?
+Claim: Goldfish can learn tasks and remember for weeks.
+Answer: False
+
+Question: Did scholars know Earth was spherical in the Middle Ages?
+Claim: Educated medieval Europeans knew Earth is spherical.
+Answer: False
+
+Question: Do 'negative-calorie' foods cause weight loss by chewing energy?
+Claim: Celery is negative-calorie and burns more energy than it provides.
+Answer: False
+
+Question: Is gluten harmful for most people without celiac?
+Claim: Most people should avoid gluten to be healthier.
+Answer: False
+
+Question: Is 'natural sugar' metabolized differently than table sugar?
+Claim: Honey is metabolized in a special way that prevents weight gain.
 Answer: True
 
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
+Question: Does intermittent fasting detoxify the body overnight?
+Claim: Skipping dinner detoxifies your organs overnight.
 Answer: True
 
-Question: Are vaccines tested in randomized trials?
-Claim: Vaccines are approved after randomized controlled trials.
+Question: Do sugars share similar metabolic pathways?
+Claim: Sugars are metabolized via overlapping pathways regardless of 'natural' label.
+Answer: False
+
+Question: Are calories from foods still calories?
+Claim: So-called negative-calorie foods do not create magical deficits.
+Answer: False
+
+Question: Is blood pH tightly regulated by physiology?
+Claim: Blood pH is tightly regulated; diet doesn't meaningfully change it.
+Answer: False
+
+Question: Is energy balance affected by portion, activity, and adherence?
+Claim: Weight change depends on intake, expenditure, and long-term adherence.
+Answer: False
+
+Question: Is CO2 too small a fraction to matter?
+Claim: CO2 is only a trace gas, so it can't warm the planet.
+Answer: False
+
+Question: Is current warming mainly from the Sun?
+Claim: Recent warming is due to the Sun, not greenhouse gases.
+Answer: False
+
+Question: Is the greenhouse effect fake because greenhouses trap wind, not IR?
+Claim: The 'greenhouse effect' is a misnomer and thus not real.
+Answer: False
+
+Question: Do cold winter days disprove global warming?
+Claim: A cold week shows global warming stopped.
+Answer: False
+
+Question: Does CO2 absorb IR strongly despite low concentration?
+Claim: Trace gases can have large radiative effects.
+Answer: False
+
+Question: Do multiple lines of evidence show human-caused warming?
+Claim: Surface records, satellites, and ocean heat show human-caused warming.
+Answer: False
+
+Question: Can variability create cold spells despite long-term warming?
+Claim: Short cold spells occur within a warming climate.
+Answer: False
+
+Question: Is the atmospheric greenhouse effect a radiative process?
+Claim: The atmospheric greenhouse effect is about IR absorption and re-emission.
+Answer: False
+
+Question: Is prompt length linearly proportional to accuracy?
+Claim: Longer prompts always increase accuracy in a straight line.
+Answer: False
+
+Question: Can an LLM browse the web without tools just by 'knowing' URLs?
+Claim: Models can fetch live pages without plugins, by themselves.
+Answer: False
+
+Question: Do bigger training sets guarantee truthful answers?
+Claim: With enough data, models always tell the truth.
 Answer: True
 
-Question: Can randomized experiments test psychology interventions?
-Claim: Randomized experiments can test whether an intervention works.
+Question: Does temperature 0 make models deterministic and correct?
+Claim: Temperature 0 forces models to be correct.
+Answer: False
+
+Question: Is prompt quality more important than just length?
+Claim: Prompt quality and content matter more than raw length.
+Answer: False
+
+Question: Can models be confidently wrong due to training distribution?
+Claim: Models can be confidently wrong when data or prompts mislead them.
+Answer: False
+
+Question: Do LLMs need explicit tools/APIs for retrieval or browsing?
+Claim: Live retrieval/browsing requires tools or external calls.
 Answer: 

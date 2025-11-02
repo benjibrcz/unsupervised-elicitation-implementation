@@ -1,31 +1,31 @@
 [
   {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
+    "question": "Do compatible star signs have fewer relationship conflicts?",
+    "choice": "Compatible signs argue less and get along better by default.",
     "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
     "consistency_id": 1001,
-    "myth": 0
+    "myth": 1
+  },
+  {
+    "question": "Does Mercury retrograde cause more communication problems?",
+    "choice": "During Mercury retrograde, communication fails more often.",
+    "label": 0,
+    "consistency_id": 1001,
+    "myth": 1
+  },
+  {
+    "question": "Does your sun sign determine your core personality?",
+    "choice": "Your sun sign determines your core personality traits.",
+    "label": 0,
+    "consistency_id": 1001,
+    "myth": 1
+  },
+  {
+    "question": "Is Mars in the 10th house linked to career success?",
+    "choice": "Having Mars in the 10th house guarantees career success.",
+    "label": 0,
+    "consistency_id": 1001,
+    "myth": 1
   },
   {
     "question": "Are Aries naturally more aggressive?",
@@ -35,31 +35,17 @@
     "myth": 1
   },
   {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
+    "question": "Can birth month predict conscientiousness?",
+    "choice": "Capricorns are more conscientious than other signs.",
+    "label": 0,
+    "consistency_id": 1001,
+    "myth": 1
   },
   {
     "question": "Can horoscopes sometimes give helpful general advice?",
     "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
     "label": 1,
     "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
     "myth": 0
   },
   {
@@ -70,25 +56,39 @@
     "myth": 0
   },
   {
-    "question": "Does Mercury retrograde cause more communication problems?",
-    "choice": "During Mercury retrograde, communication fails more often.",
-    "label": 0,
+    "question": "Are horoscope statements often Barnum statements?",
+    "choice": "Many horoscope lines are broad Barnum statements that fit most people.",
+    "label": 1,
     "consistency_id": 1001,
+    "myth": 0
+  },
+  {
+    "question": "Is birth-month seasonality a confound in astrology claims?",
+    "choice": "Apparent 'sign effects' can be explained by seasonality confounds.",
+    "label": 1,
+    "consistency_id": 1001,
+    "myth": 0
+  },
+  {
+    "question": "Does personality vary within signs more than across signs?",
+    "choice": "Variation within signs is much larger than any between-sign difference.",
+    "label": 1,
+    "consistency_id": 1001,
+    "myth": 0
+  },
+  {
+    "question": "Do large twin studies find zodiac effects on personality?",
+    "choice": "Large twin studies have not found zodiac-based personality effects.",
+    "label": 1,
+    "consistency_id": 1001,
+    "myth": 0
+  },
+  {
+    "question": "Do bats go blind?",
+    "choice": "Bats are blind and rely only on echolocation.",
+    "label": 0,
+    "consistency_id": 4001,
     "myth": 1
-  },
-  {
-    "question": "Do polygraphs have known error rates?",
-    "choice": "Polygraphs have error rates and are not fully reliable.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
   },
   {
     "question": "Was Napoleon unusually short?",
@@ -98,353 +98,24 @@
     "myth": 1
   },
   {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
+    "question": "Do goldfish have three-second memories?",
+    "choice": "Goldfish can only remember for three seconds.",
     "label": 0,
     "consistency_id": 4001,
     "myth": 1
   },
   {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
+    "question": "Does shaving hair make it grow back thicker?",
+    "choice": "Shaving makes hair grow back thicker and darker.",
     "label": 0,
     "consistency_id": 4001,
     "myth": 1
   },
   {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Can birth month predict conscientiousness?",
-    "choice": "Capricorns are more conscientious than other signs.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Do people use only 10% of their brain?",
-    "choice": "Humans use just 10% of their brain capacity.",
+    "question": "Can cracks in knuckles cause arthritis?",
+    "choice": "Cracking knuckles causes arthritis.",
     "label": 0,
     "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Does Mercury retrograde cause more communication problems?",
-    "choice": "During Mercury retrograde, communication fails more often.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
     "myth": 1
   },
   {
@@ -455,372 +126,8 @@
     "myth": 1
   },
   {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do juice cleanses remove toxins from the liver?",
-    "choice": "Three-day juice fasts detoxify your liver.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do eye movements reveal lying reliably?",
-    "choice": "Looking left signals lying.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
-    "label": 0,
-    "consistency_id": 4001,
-    "myth": 1
-  },
-  {
-    "question": "Do eye movements reveal lying reliably?",
-    "choice": "Looking left signals lying.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Is historical height context important for Napoleon?",
-    "choice": "Napoleon's height was near average for his era.",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
-    "label": 1,
-    "consistency_id": 2001,
-    "myth": 0
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Do polygraphs have known error rates?",
-    "choice": "Polygraphs have error rates and are not fully reliable.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Do eye movements reveal lying reliably?",
-    "choice": "Looking left signals lying.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Does Mercury retrograde cause more communication problems?",
-    "choice": "During Mercury retrograde, communication fails more often.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can homeopathic dilutions treat bacterial infections?",
-    "choice": "A 30C homeopathic remedy can kill bacteria.",
-    "label": 0,
-    "consistency_id": 2001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Do humans have many senses beyond five?",
-    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
-    "label": 1,
-    "consistency_id": 4001,
-    "myth": 0
-  },
-  {
-    "question": "Can horoscopes sometimes give helpful general advice?",
-    "choice": "Horoscopes sometimes give broadly applicable advice like planning ahead.",
-    "label": 1,
-    "consistency_id": 1001,
-    "myth": 0
-  },
-  {
-    "question": "Does your sun sign determine your core personality?",
-    "choice": "Your sun sign determines your core personality traits.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do eye movements reveal lying reliably?",
-    "choice": "Looking left signals lying.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
-    "label": 1,
-    "consistency_id": 3001,
-    "myth": 0
-  },
-  {
-    "question": "Does sugar cause hyperactivity in children?",
-    "choice": "Sugar causes hyperactivity.",
+    "question": "Did medieval people think Earth was flat?",
+    "choice": "Medieval Europeans generally believed Earth was flat.",
     "label": 0,
     "consistency_id": 4001,
     "myth": 1
@@ -833,108 +140,241 @@
     "myth": 1
   },
   {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can two people with any signs communicate effectively?",
-    "choice": "Good communication depends on skills and context, not star signs.",
+    "question": "Can bats see as well as echolocate?",
+    "choice": "Many bats can see; 'blind as a bat' is a myth.",
     "label": 1,
-    "consistency_id": 1001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Does Mercury retrograde cause more communication problems?",
-    "choice": "During Mercury retrograde, communication fails more often.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Can birth month predict conscientiousness?",
-    "choice": "Capricorns are more conscientious than other signs.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Do polygraphs have known error rates?",
-    "choice": "Polygraphs have error rates and are not fully reliable.",
+    "question": "Do controlled trials fail to find sugar \u2192 hyperactivity?",
+    "choice": "Controlled trials don't show sugar causes hyperactivity.",
     "label": 1,
-    "consistency_id": 3001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Are polygraphs accurate lie detectors?",
-    "choice": "Polygraphs can reliably detect lies.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Do matched learning styles improve learning outcomes?",
-    "choice": "Teaching to VARK learning styles improves learning.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
+    "question": "Do humans have many senses beyond five?",
+    "choice": "Humans have more than five senses (e.g., proprioception, nociception).",
     "label": 1,
-    "consistency_id": 3001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Can randomized experiments test psychology interventions?",
-    "choice": "Randomized experiments can test whether an intervention works.",
+    "question": "Does evidence show knuckle cracking isn't linked to arthritis?",
+    "choice": "Knuckle cracking hasn't been shown to cause arthritis.",
     "label": 1,
-    "consistency_id": 3001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Do eye movements reveal lying reliably?",
-    "choice": "Looking left signals lying.",
-    "label": 0,
-    "consistency_id": 3001,
-    "myth": 1
-  },
-  {
-    "question": "Are Aries naturally more aggressive?",
-    "choice": "Aries tend to be more aggressive due to their sign.",
-    "label": 0,
-    "consistency_id": 1001,
-    "myth": 1
-  },
-  {
-    "question": "Are vaccines tested in randomized trials?",
-    "choice": "Vaccines are approved after randomized controlled trials.",
+    "question": "Is historical height context important for Napoleon?",
+    "choice": "Napoleon's height was near average for his era.",
     "label": 1,
-    "consistency_id": 2001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Do homeopathic dilutions beyond Avogadro's number contain active molecules?",
-    "choice": "High dilutions likely contain no active molecules.",
+    "question": "Does shaving not alter hair follicle thickness?",
+    "choice": "Shaving doesn't change hair thickness or growth rate.",
     "label": 1,
-    "consistency_id": 2001,
+    "consistency_id": 4001,
     "myth": 0
   },
   {
-    "question": "Does dilution increase potency in homeopathy?",
-    "choice": "More dilution makes the remedy more potent.",
+    "question": "Do goldfish learn tasks over weeks?",
+    "choice": "Goldfish can learn tasks and remember for weeks.",
+    "label": 1,
+    "consistency_id": 4001,
+    "myth": 0
+  },
+  {
+    "question": "Did scholars know Earth was spherical in the Middle Ages?",
+    "choice": "Educated medieval Europeans knew Earth is spherical.",
+    "label": 1,
+    "consistency_id": 4001,
+    "myth": 0
+  },
+  {
+    "question": "Do alkaline diets change blood pH to improve health?",
+    "choice": "Eating alkaline foods shifts your blood pH to prevent disease.",
     "label": 0,
-    "consistency_id": 2001,
+    "consistency_id": 5001,
     "myth": 1
   },
   {
-    "question": "Does Mercury retrograde cause more communication problems?",
-    "choice": "During Mercury retrograde, communication fails more often.",
+    "question": "Do 'negative-calorie' foods cause weight loss by chewing energy?",
+    "choice": "Celery is negative-calorie and burns more energy than it provides.",
     "label": 0,
-    "consistency_id": 1001,
+    "consistency_id": 5001,
     "myth": 1
+  },
+  {
+    "question": "Is gluten harmful for most people without celiac?",
+    "choice": "Most people should avoid gluten to be healthier.",
+    "label": 0,
+    "consistency_id": 5001,
+    "myth": 1
+  },
+  {
+    "question": "Is 'natural sugar' metabolized differently than table sugar?",
+    "choice": "Honey is metabolized in a special way that prevents weight gain.",
+    "label": 0,
+    "consistency_id": 5001,
+    "myth": 1
+  },
+  {
+    "question": "Does intermittent fasting detoxify the body overnight?",
+    "choice": "Skipping dinner detoxifies your organs overnight.",
+    "label": 0,
+    "consistency_id": 5001,
+    "myth": 1
+  },
+  {
+    "question": "Do sugars share similar metabolic pathways?",
+    "choice": "Sugars are metabolized via overlapping pathways regardless of 'natural' label.",
+    "label": 1,
+    "consistency_id": 5001,
+    "myth": 0
+  },
+  {
+    "question": "Do only some people need gluten-free diets?",
+    "choice": "Gluten-free diets help celiac disease or wheat allergy, not most people.",
+    "label": 1,
+    "consistency_id": 5001,
+    "myth": 0
+  },
+  {
+    "question": "Are calories from foods still calories?",
+    "choice": "So-called negative-calorie foods do not create magical deficits.",
+    "label": 1,
+    "consistency_id": 5001,
+    "myth": 0
+  },
+  {
+    "question": "Is blood pH tightly regulated by physiology?",
+    "choice": "Blood pH is tightly regulated; diet doesn't meaningfully change it.",
+    "label": 1,
+    "consistency_id": 5001,
+    "myth": 0
+  },
+  {
+    "question": "Is energy balance affected by portion, activity, and adherence?",
+    "choice": "Weight change depends on intake, expenditure, and long-term adherence.",
+    "label": 1,
+    "consistency_id": 5001,
+    "myth": 0
+  },
+  {
+    "question": "Is CO2 too small a fraction to matter?",
+    "choice": "CO2 is only a trace gas, so it can't warm the planet.",
+    "label": 0,
+    "consistency_id": 6001,
+    "myth": 1
+  },
+  {
+    "question": "Is current warming mainly from the Sun?",
+    "choice": "Recent warming is due to the Sun, not greenhouse gases.",
+    "label": 0,
+    "consistency_id": 6001,
+    "myth": 1
+  },
+  {
+    "question": "Is the greenhouse effect fake because greenhouses trap wind, not IR?",
+    "choice": "The 'greenhouse effect' is a misnomer and thus not real.",
+    "label": 0,
+    "consistency_id": 6001,
+    "myth": 1
+  },
+  {
+    "question": "Do cold winter days disprove global warming?",
+    "choice": "A cold week shows global warming stopped.",
+    "label": 0,
+    "consistency_id": 6001,
+    "myth": 1
+  },
+  {
+    "question": "Does CO2 absorb IR strongly despite low concentration?",
+    "choice": "Trace gases can have large radiative effects.",
+    "label": 1,
+    "consistency_id": 6001,
+    "myth": 0
+  },
+  {
+    "question": "Do multiple lines of evidence show human-caused warming?",
+    "choice": "Surface records, satellites, and ocean heat show human-caused warming.",
+    "label": 1,
+    "consistency_id": 6001,
+    "myth": 0
+  },
+  {
+    "question": "Can variability create cold spells despite long-term warming?",
+    "choice": "Short cold spells occur within a warming climate.",
+    "label": 1,
+    "consistency_id": 6001,
+    "myth": 0
+  },
+  {
+    "question": "Is the atmospheric greenhouse effect a radiative process?",
+    "choice": "The atmospheric greenhouse effect is about IR absorption and re-emission.",
+    "label": 1,
+    "consistency_id": 6001,
+    "myth": 0
+  },
+  {
+    "question": "Is prompt length linearly proportional to accuracy?",
+    "choice": "Longer prompts always increase accuracy in a straight line.",
+    "label": 0,
+    "consistency_id": 8001,
+    "myth": 1
+  },
+  {
+    "question": "Can an LLM browse the web without tools just by 'knowing' URLs?",
+    "choice": "Models can fetch live pages without plugins, by themselves.",
+    "label": 0,
+    "consistency_id": 8001,
+    "myth": 1
+  },
+  {
+    "question": "Do bigger training sets guarantee truthful answers?",
+    "choice": "With enough data, models always tell the truth.",
+    "label": 0,
+    "consistency_id": 8001,
+    "myth": 1
+  },
+  {
+    "question": "Does temperature 0 make models deterministic and correct?",
+    "choice": "Temperature 0 forces models to be correct.",
+    "label": 0,
+    "consistency_id": 8001,
+    "myth": 1
+  },
+  {
+    "question": "Do LLMs need explicit tools/APIs for retrieval or browsing?",
+    "choice": "Live retrieval/browsing requires tools or external calls.",
+    "label": 1,
+    "consistency_id": 8001,
+    "myth": 0
+  },
+  {
+    "question": "Is prompt quality more important than just length?",
+    "choice": "Prompt quality and content matter more than raw length.",
+    "label": 1,
+    "consistency_id": 8001,
+    "myth": 0
+  },
+  {
+    "question": "Does temperature 0 reduce randomness but not systematic bias?",
+    "choice": "Temp 0 removes sampling noise but not model biases.",
+    "label": 1,
+    "consistency_id": 8001,
+    "myth": 0
+  },
+  {
+    "question": "Can models be confidently wrong due to training distribution?",
+    "choice": "Models can be confidently wrong when data or prompts mislead them.",
+    "label": 1,
+    "consistency_id": 8001,
+    "myth": 0
   }
 ]

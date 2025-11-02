@@ -1,5 +1,5 @@
 Decide if the claim is factually true given the question. Output exactly True or False.
 
-Question: Was Napoleon unusually short?
-Claim: Napoleon Bonaparte was significantly shorter than average.
+Question: Can homeopathic dilutions treat bacterial infections?
+Claim: A 30C homeopathic remedy can kill bacteria.
 Answer: 

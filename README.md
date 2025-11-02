@@ -50,6 +50,10 @@ python -m src.run \
   --figure results_best_200_steps.png
 ```
 
+Rendered figure (TruthfulQA, Part 1):
+
+![Main result — TruthfulQA](results_best_200_steps.png)
+
 Outputs (default names unless overridden):
 - `results.json` — accuracies for four bars (+ optional myth coherence if present)
 - `results.png` — bar chart matching Figure 1 layout
