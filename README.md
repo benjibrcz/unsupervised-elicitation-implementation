@@ -145,10 +145,11 @@ python -m src.run_myths_compare \
 
 Outputs a small 2×2-style artifact (JSON) and a scatter plot (`results_myths_compare.png`) showing truth accuracy vs myth coherence for Neutral vs Myth seeds.
 
-(results_myths_small.png, results_myths_mythseed_small.png)
+![Main result 1](results_myths_small.png)
+![Main result 1](results_myths_mythseed_small.png)
 
-(Left) Neutral seed ICM: accuracy 1.00 (same as Golden), zero-shot ~0.83.
-(Right) Myth-seeded ICM: accuracy 0.33, while Golden stays 1.00; zero-shot ~0.83.
+(Top) Neutral seed ICM: accuracy 1.00 (same as Golden), zero-shot ~0.83.
+(Bottom) Myth-seeded ICM: accuracy 0.33, while Golden stays 1.00; zero-shot ~0.83.
 Interpretation: with a coherent myth seed, ICM converges to the coherent wrong rule. 
 
 
