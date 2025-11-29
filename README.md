@@ -1,6 +1,6 @@
 ## TruthfulQA ICM (Algorithm 1) — Minimal Reimplementation
 
-This repo contains a lean Python implementation of Algorithm 1 (ICM) from "Unsupervised Elicitation of Language Models" applied to TruthfulQA. The logical consistency fix step is intentionally ignored per the task spec.
+This repo contains a lean Python implementation of Algorithm 1 (ICM) from "Unsupervised Elicitation of Language Models" applied to TruthfulQA. The logical consistency fix step is intentionally ignored for simplicity.
 
 ### Setup
 
@@ -95,7 +95,7 @@ python -m src.run_sweep_k --k_list 8 16 32 64 128 \
 
 ### Notes
 
-- We ignore the paper’s logical consistency fix (Algorithm 2) per instructions; `I(D)=0`.
+- We ignore the paper’s logical consistency fix (Algorithm 2); `I(D)=0`.
 - Prompts are cached by exact text; progress bars/timers included.
 - Strict decoding (`--eval_mode strict_text`) helps avoid logprob/tokenization edge cases.
 
